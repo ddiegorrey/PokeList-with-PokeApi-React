@@ -1,0 +1,97 @@
+.btn-normal {
+  background-color: #a8a878;
+  color: #fff;
+}
+.btn-fire {
+  background-color: #f08030;
+  color: #fff;
+}
+.btn-water {
+  background-color: #6890f0;
+  color: #fff;
+}
+.btn-electric {
+  background-color: #f8d030;
+  color: #fff;
+}
+.btn-grass {
+  background-color: #78c850;
+  color: #fff;
+}
+.btn-ice {
+  background-color: #98d8d8;
+  color: #fff;
+}
+.btn-fighting {
+  background-color: #c03028;
+  color: #fff;
+}
+.btn-poison {
+  background-color: #a040a0;
+  color: #fff;
+}
+.btn-ground {
+  background-color: #e0c068;
+  color: #fff;
+}
+.btn-flying {
+  background-color: #a890f0;
+  color: #fff;
+}
+.btn-psychic {
+  background-color: #f85888;
+  color: #fff;
+}
+.btn-bug {
+  background-color: #a8b820;
+  color: #fff;
+}
+.btn-rock {
+  background-color: #b8a038;
+  color: #fff;
+}
+.btn-ghost {
+  background-color: #705898;
+  color: #fff;
+}
+.btn-dragon {
+  background-color: #7038f8;
+  color: #fff;
+}
+.btn-dark {
+  background-color: #4f4f4f;
+  color: #fff;
+}
+.btn-steel {
+  background-color: #b8b8d0;
+  color: #fff;
+}
+
+.btn-custom {
+  border: none; /* Elimina el borde por defecto */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 0.5rem 1rem; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño de fuente */
+  font-weight: 600; /* Negrita en el texto */
+  color: #fff; /* Color del texto */
+  text-align: center; /* Centra el texto */
+  text-decoration: none; /* Elimina subrayado de texto */
+  display: inline-block; /* Ajusta el botón para tener márgenes automáticos */
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* Transiciones suaves */
+}
+
+.btn-custom:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+  transform: translateY(-2px); /* Leve elevación en hover */
+}
+
+/* PokeCard */
+
+.pokeimg {
+  width: 12rem;
+}
+
+.pokecard {
+  width: 18rem;
+}
